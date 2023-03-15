@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "Container database",
+            "driver": "PostgreSQL",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "database": "app",
+            "username": "app_user",
+            "password": "app_password"
+        },
+        {
+            "previewLimit": 50,
+            "server": "db.lgwxigxlqzxsyfazugmj.supabase.co",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "supa",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "4XuEl7FZIDMjLe0a"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}MyApp{% endblock %}</title>
+    </head>
+
+    <body>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/users/register/">Register</a>
+            <!-- Add other links as needed -->
+        </nav>
+
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+    </body>
+
+</html>
